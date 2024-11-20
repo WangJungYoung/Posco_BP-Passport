@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSCO Battery Passport</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+        }
+        .hover-box {
+            position: absolute;
+            background-color: transparent; /* 기본 투명 */
+            transition: background-color 0.07s ease; /* 색상 전환 효과 */
+        }
+        /* 마우스 오버 및 터치 상태에서 색상 변경 */
+        .hover-box:hover,
+        .hover-box:active {
+            background-color: rgba(0, 123, 255, 0.5); /* 파란색, 50% 투명도 */
+        }
+        /* 각 박스의 위치와 크기 설정 */
+        .box-1 { top: 275.5px; left: 80px; width: 88px; height: 22px; } /* Product Name - completed */
+        .box-2 { top: 275.5px; left: 345px; width: 193px; height: 22px; } /* End of Life Collection Information */
+        .box-3 { top: 310px; left: 80px; width: 116px; height: 22px; } /* Manufacturing Site - completed */
+        .box-4 { top: 310px; left: 345px; width: 197px; height: 22px; } /* Supply Chain Due Diligence Policy */
+        .box-5 { top: 344px; left: 80px; width: 108px; height: 22px; } /* Recycled Content - completed */
+        .box-6 { top: 344px; left: 345px; width: 152px; height: 22px; } /* Declaration of Conformity */
+        .box-7 { top: 378px; left: 80px; width: 91px; height: 22px; } /* Battery Health */
+        .box-8 { top: 378px; left: 345px; width: 135px; height: 22px; } /* Hazardous Substances */
+        .box-9 { top: 412px; left: 80px; width: 89px; height: 22px; } /* GHG Emission */
+        .box-10 { top: 412px; left: 345px; width: 77px; height: 22px; } /* Certification */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 배터리 패스포트 이미지를 배경으로 사용 -->
+        <img src="url_battery passport.png" alt="Battery Passport">
+        
+        <!-- 투명 박스 -->
+        <div class="hover-box box-1"></div>
+        <div class="hover-box box-2"></div>
+        <div class="hover-box box-3"></div>
+        <div class="hover-box box-4"></div>
+        <div class="hover-box box-5"></div>
+        <div class="hover-box box-6"></div>
+        <div class="hover-box box-7"></div>
+        <div class="hover-box box-8"></div>
+        <div class="hover-box box-9"></div>
+        <div class="hover-box box-10"></div>
+    </div>
+</body>
+</html>
